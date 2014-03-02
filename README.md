@@ -52,4 +52,4 @@ This program generates names by sequentially appending characters. When chosing 
 Algorithm
 ----
 
-In order to speed up the generation, it sorts all suffixes of the sample file (this might take some time, depending on the size of the input). Chosing next successor is then accomplished using binary search. O(log n) where n is length of sample file.
+In order to speed up the generation, it sorts all suffixes of the sample file (this might take some time and memory, depending on the size of the input). Chosing next successor is then accomplished using binary search.
