@@ -28,24 +28,24 @@ Usage
 
 1. Write or download file with samples.
 
-        ```bash
-        wget http://dumps.wikimedia.org/enwiki/latest/enwiki-latest-all-titles.gz
-        gunzip enwiki-latest-all-titles.gz
+    ```bash
+    wget http://dumps.wikimedia.org/enwiki/latest/enwiki-latest-all-titles.gz
+    gunzip enwiki-latest-all-titles.gz
         
 2. Filter it to lowercase and strip any unnessecary interpunction.
 
-        ```bash
-        python3 filter.py enwiki-latest-all-titles
+    ```bash
+    python3 filter.py enwiki-latest-all-titles
         
 3. Compile `gen.cpp`...
 
-        ```bash
-        g++ gen.cpp -std=c++11 -O2
+    ```bash
+    g++ gen.cpp -std=c++11 -O2
 
 4. ... and run in with sample file as a parameter:
 
-        ```bash
-        ./a.out enwiki-latest-all-titles-filtered
+    ```bash
+    ./a.out enwiki-latest-all-titles-filtered
 
 Technique
 ------
