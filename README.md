@@ -3,6 +3,7 @@ Random Word Generator
 
 This program will generate random words using a set of samples that you can supply.
 
+<a href="http://berkozturk.deviantart.com/art/turtlebird-418143123"><img src="http://fc09.deviantart.net/fs70/f/2013/340/f/9/hgfhgf_by_berkozturk-d6wy9ar.jpg" alt="Turtlebird by berkozturk" width=300></a>
 ## Examples
 
 ### Using English Wikipedia titles
